@@ -30,7 +30,7 @@ resources:
     username: {{cf-username}}
     password: {{cf-password}}
     organization: {{cf-org}}
-    space: review
+    space: rgravina-pal-review
 
 - name: production-deployment
   type: cf
@@ -39,7 +39,7 @@ resources:
     username: {{cf-username}}
     password: {{cf-password}}
     organization: {{cf-org}}
-    space: production
+    space: rgravina-pal-production
 
 jobs:
 - name: build
