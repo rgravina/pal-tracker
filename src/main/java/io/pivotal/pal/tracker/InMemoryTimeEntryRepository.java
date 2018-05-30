@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-@Repository
 public class InMemoryTimeEntryRepository implements TimeEntryRepository {
     private long lastId = 1L;
     private HashMap<Long, TimeEntry> entries = new HashMap();
